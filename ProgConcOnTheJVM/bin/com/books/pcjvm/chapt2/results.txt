@@ -1,0 +1,109 @@
+
+1) I/O Intensive app
+
+Sequential
+
+Your net asset value is $13,533,928.07
+Time (seconds) taken 20.210098042
+Mon Mar 12 15:35:04 GMT 2012
+
+Your net asset value is $13,533,928.07
+Time (seconds) taken 12.978573512
+Mon Mar 12 15:36:18 GMT 2012
+
+Your net asset value is $13,533,928.07
+Time (seconds) taken 10.414915337
+Mon Mar 12 15:36:42 GMT 2012
+
+Your net asset value is $13,533,928.07
+Time (seconds) taken 25.474112349
+Mon Mar 12 15:37:20 GMT 2012
+
+Your net asset value is $13,533,928.07
+Time (seconds) taken 15.80932237
+Mon Mar 12 15:37:46 GMT 2012
+
+Concurrent
+
+Number of Core available is: 4
+Pool size is 40
+Your net asset value is $13,533,928.07
+Time (seconds) taken 2.868097861
+Mon Mar 12 15:51:05 GMT 2012
+
+Number of Core available is: 4
+Pool size is 40
+Your net asset value is $13,533,928.07
+Time (seconds) taken 2.686860845
+Mon Mar 12 15:51:23 GMT 2012
+
+Number of Core available is: 4
+Pool size is 40
+Your net asset value is $13,533,928.07
+Time (seconds) taken 2.81808232
+Mon Mar 12 15:51:39 GMT 2012
+
+Number of Core available is: 4
+Pool size is 40
+Your net asset value is $13,533,928.07
+Time (seconds) taken 2.544263056
+Mon Mar 12 15:51:49 GMT 2012
+
+Number of Core available is: 4
+Pool size is 40
+Your net asset value is $13,533,928.07
+Time (seconds) taken 2.815274986
+Mon Mar 12 15:52:03 GMT 2012
+
+2) Compute Intensive app
+
+Sequential
+
+Number of primes under 10000000 is 664579
+Time (seconds) taken 8.841857231
+Mon Mar 12 17:10:15 GMT 2012
+
+Number of primes under 10000000 is 664579
+Time (seconds) taken 8.877212988
+Mon Mar 12 17:11:15 GMT 2012
+
+Number of primes under 10000000 is 664579
+Time (seconds) taken 8.892064839
+Mon Mar 12 17:11:31 GMT 2012
+
+Number of primes under 10000000 is 664579
+Time (seconds) taken 8.865674661
+Mon Mar 12 17:11:47 GMT 2012
+
+Number of primes under 10000000 is 664579
+Time (seconds) taken 8.859175167
+Mon Mar 12 17:12:04 GMT 2012
+
+Concurrent (2 parts)
+
+Number of primes under 10000000 is 664579
+Time (seconds) taken 5.958951137
+Mon Mar 12 17:42:27 GMT 2012
+
+Number of primes under 10000000 is 664579
+Time (seconds) taken 5.925184333
+Mon Mar 12 17:42:55 GMT 2012
+
+Number of primes under 10000000 is 664579
+Time (seconds) taken 6.035172121
+Mon Mar 12 17:43:14 GMT 2012
+
+Concurrent (100 parts)
+
+Number of primes under 10000000 is 664579
+Time (seconds) taken 4.586213241
+Mon Mar 12 17:44:16 GMT 2012
+
+Number of primes under 10000000 is 664579
+Time (seconds) taken 4.582500187
+Mon Mar 12 17:44:30 GMT 2012
+
+Number of primes under 10000000 is 664579
+Time (seconds) taken 4.613205279
+Mon Mar 12 17:44:44 GMT 2012
+

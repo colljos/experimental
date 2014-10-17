@@ -1,0 +1,52 @@
+
+Sequential						NaivelyConcurrent		ConcurrentUsingFutures			ConcurrentUsingLatch		ConcurrentUsingBQueue		ForkJoinPool				Akka Actors					Akka STM
+
+C:\users
+Total Size: 4517531382			TimeOutException		Total Size: 4533105315										Total Size: 4533746387		Total Size: 4644498592
+Time taken: 38.114846851								Time taken: 5.88128839										Time taken: 3.303506434		Time taken: 20.65521684
+
+Total Size: 4517536173									Total Size: 4533105946			Total Size: 4533665854									Total Size: 4644501462		Total Size: 4617204018		Total Size: 4647442384	
+Time taken: 4.240722048									Time taken: 2.829953501			Time taken: 2.621979282		Time taken: 3.438081372		Time taken: 2.154495316		Time taken: 3.162387918		Time taken: 3.89614372
+
+Total Size: 4517537181									Total Size: 4533105497			Total Size: 4533665972		Total Size: 4533746569		Total Size: 4644503229		Total Size: 4617205880		Total Size: 4647444736
+Time taken: 4.219319621									Time taken: 2.869081629			Time taken: 2.617047534		Time taken: 3.322531506		Time taken: 2.168936436		Time taken: 3.17495421		Time taken: 4.064089411
+
+C:\Windows
+Total Size: 19309200353									Total Size: 19309209203			Total Size: 19309213234		Total Size: 19309213510		Total Size: 19322908148		Total Size: 19322908240		TooManyRetriesException:
+Time taken: 52.823430252								Time taken: 13.18803244			Time taken: 5.662513076		Time taken: 6.26553033		Time taken: 27.857267165	Time taken: 6.525258123
+
+Total Size: 19309200353
+Time taken: 9.986545549									Time taken: 6.692120054			Time taken: 5.820707254		Time taken: 6.341195905		Time taken: 5.361787093		Time taken: 6.418296191
+
+Total Size: 19309200353
+Time taken: 10.002913232								Time taken: 7.065555035			Time taken: 5.754518844		Time taken: 6.256808597		Time taken: 5.287116911		Time taken: 6.339957724
+
+Total Size: 19309200353
+Time taken: 9.957776473									Time taken: 6.695826104			Time taken: 5.747773475		Time taken: 6.247244929		Time taken: 5.283333535		Time taken: 6.498144782
+
+C:\Program Files
+Total Size: 1483885724									Total Size: 1483885724			Total Size: 1483885724		Total Size: 1483885724		Total Size: 1483885724		Total Size: 1483885724		Total Size: 1483885724	
+Time taken: 4.617010881									Time taken: 1.790691955			Time taken: 0.342910196		Time taken: 0.433664609		Time taken: 2.177918014		Time taken: 0.439827567		Time taken: 0.96001431
+
+Total Size: 1483885724
+Time taken: 0.644382353									Time taken: 0.381873748			Time taken: 0.334932898		Time taken: 0.448598402		Time taken: 0.296640595		Time taken: 0.428763702		Time taken: 0.94966922
+
+Total Size: 1483885724
+Time taken: 0.643181947									Time taken: 0.370625846			Time taken: 0.365594035		Time taken: 0.426590823		Time taken: 0.299115441		Time taken: 0.420767004		Time taken: 0.953508676
+
+Total Size: 1483885724
+Time taken: 0.643897425									Time taken: 0.394322425			Time taken: 0.352848464		Time taken: 0.442818855		Time taken: 0.359520807		Time taken: 0.4397352		Time taken: 0.967010366
+
+C:\
+Total Size: 47498790691									Total Size: 47514981738			Total Size: 47515535347		Total Size: 47515691508		Total Size: 47861429091		Total Size: 47834498592
+Time taken: 41.949284191								Time taken: 15.573975109		Time taken: 10.886223069	Time taken: 12.732101112	Time taken: 16.866771789	Time taken: 11.957564755
+
+Total Size: 47498794051									Total Size: 47514900085																	Total Size: 47861431944		Total Size: 47834500608
+Time taken: 18.326395532								Time taken: 11.925469222		Time taken: 11.400759903	Time taken: 12.687489599	Time taken: 9.049475653		Time taken: 12.137324242
+
+Total Size: 47498795731									Total Size: 47514900543										Total Size: 47515691690		Total Size: 47861433960		Total Size: 47834502624
+Time taken: 18.257939728								Time taken: 12.195530308		Time taken: 11.302955163	Time taken: 12.811176941	Time taken: 9.269835876		Time taken: 12.066225579
+
+Total Size: 47498797747									Total Size: 47514901614																	Total Size: 47861436158		Total Size: 47834504304
+Time taken: 18.302886255								Time taken: 11.833394178		Time taken: 11.283477052	Time taken: 12.441904713	Time taken: 9.022445516		Time taken: 12.088091968
+

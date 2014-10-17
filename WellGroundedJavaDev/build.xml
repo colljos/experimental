@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="java7developer" default="compile">
+
+    <property file="build.properties"/>
+
+    <target name="clean">
+        <delete dir="${target.dir}"/>
+    </target>
+
+    <target name="init" depends="clean">
+        <mkdir dir="${target.dir}"/>
+    </target>	
+
+    <target name="compile" depends="init">
+        <echoproperties />
+        
+        <javac srcdir="${src.dir}/main/java" destdir="${target.dir}" fork="true" compiler="javac1.7" source="1.7" includeantruntime="false" executable="${jdk.javac.fullpath}">
+            <classpath>
+                <pathelement location="lib/junit-4.8.2.jar" />
+                <pathelement location="lib/guice-3.0.jar" />
+                <pathelement location="lib/asm-4.0_RC1.jar" />
+                <pathelement location="lib/javax.inject.jar" />
+                <pathelement location="lib/hibernate3.jar" />
+                <pathelement location="lib/org.springframework.core-3.0.5.RELEASE.jar" />
+                <pathelement location="lib/org.springframework.beans-3.0.5.RELEASE.jar" />
+                <pathelement location="lib/org.springframework.context-3.0.5.RELEASE.jar" />
+            </classpath>
+        </javac>
+    </target>	
+
+    <!--
+        <pathelement location="lib/slf4j-api-1.6.1.jar" />
+        <pathelement location="lib/antlr-2.7.6.jar" />
+        <pathelement location="lib/commons-collections-3.1.jar" />
+        <pathelement location="lib/dom4j-1.6.1.jar" />
+        <pathelement location="lib/javassist-3.12.0.GA.jar" />
+        <pathelement location="lib/jta-1.1.jar" />
+        <pathelement location="lib/hsqldb-2.2.4.jar" />
+    -->
+
+    <target name="jar" depends="compile">
+        <jar basedir="${target}" destfile="${target}/java7developer.jar"/>
+    </target>
+
+</project>
