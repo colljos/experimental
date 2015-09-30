@@ -13,7 +13,11 @@ public class ResolverImpl implements Resolver {
 	@Override
 	public Optional<Solution> resolve(final Maze aMaze) {
 
-		this.maze = aMaze;
+		maze = aMaze;
+
+		Optional<Solution> s = Optional.empty();
+		if (!aMaze.validate())
+			return s;
 		
 		this.wasHere = new boolean[maze.width()][maze.height()];
 		this.correctPath = new boolean[maze.width()][maze.height()];
@@ -30,7 +34,6 @@ public class ResolverImpl implements Resolver {
 	    // with the path indicated by true values.
 	    // If b is false, there is no solution to the maze
 	    
-	    Optional<Solution> s = Optional.empty();
 	    if (resolved) {
 	    	Solution solution = new Solution(correctPath, wasHere);
 	    	s = Optional.of(solution);

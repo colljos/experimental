@@ -20,7 +20,6 @@ public class Maze {
 		this.maze = maze;		
 	}
 	
-	
 	public boolean validate() {
 		
 		boolean start = false, finish = false;
@@ -35,6 +34,7 @@ public class Maze {
 					if (maze[x][y] == 'F') finish = true;
 					continue;
 				}
+				Logger.getGlobal().severe(() -> "Maze failed validation check"); 
 				return false;
 			}	
 		}
